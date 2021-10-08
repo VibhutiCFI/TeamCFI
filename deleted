@@ -5,3 +5,59 @@
           </button>
 
           <!p class="leading-relaxed text-purple-800">CITS Trades</p>
+
+          .navigation a:not(:first-child):before{
+        content: "|";
+        display: inline;
+        width: 5px;
+    }
+
+     .navbar verticalLine{
+      border-left: thick solid #ff0000;
+    }
+    navbar hr.vertical{
+      color: black;
+      width: 0px
+      height: 100%;
+    }
+<li>Architectural Assistantsh</li>
+<li>Architectural Draughtsman</li>
+<li>Carpenter</li>    
+<li>Catering & Hospitality</li>
+<li>Computer Hardware & Networking Maintenance</li>
+<li>Computer Software Application</li>
+<li>Computer Software Applications</li>
+<li>Cosmetology</li>                
+<li>Desktop Publishing Operator</li>
+<li>Draughtsman Civil</li>
+<li>Draughtsman Mechanical</li>
+<li>Dress Making</li>                         
+<li>Electrician</li>
+<li>Electrician & Wireman</li>
+<li>Electronics Mechanic</li>       
+<li>Fashion Design & Technology</li>
+<li>Fitter</li>
+<li>Foundryman</li>           
+<li>Instrument Mechanic</li>                 
+<li>Machinist & Operator Advance Machine Tool</li>
+<li>Machinist (Grinder)</li>
+<li>Mechanic (Diesel)</li>            
+<li>Mechanic Agricultural Machinery</li>
+<li>Mechanic Agriculture Machinery</li>
+<li>Mechanic Consumer Electronic Appliances</li>
+<li>Mechanic Machine Tool Maintenance</li>
+<li>Mechanic Motor Vehicle</li>                  
+<li>Mechanic Refrigeration & Air-Conditioning</li>
+<li>Mechanic Tractor</li>
+<li>Office Management</li>
+<li>Secretarial Practice - Hindi</li>
+<li>Plumber</li>                
+<li>Reading of Drawing and Arithmetic</li>
+<li>Secretarial Practice (Hindi)</li>
+<li>Sewing Technology</li>                     
+<li>Sheet Metal Worker</li>              
+<li>Surface Ornamentation Techniques</li>
+<li>Technician Power Electronics Systems</li>
+<li>Tool & Die Maker</li>
+<li>Turner</li>  
+<li>Welder</li>
