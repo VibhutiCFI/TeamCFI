@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Centrally Funded Institutes</title>
 </head>
@@ -83,30 +83,34 @@
 <style>
     .container1{
     max-width: 100%; 
-    padding: 20px; 
+    padding: 2em; 
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(208, 252, 14, 0.644);
     border: 3px solid rgb(16, 20, 238);
     border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
     }
 
     .container{
       max-width: 95%;
       background-color: rgba(252, 89, 14, 0.445);
-      padding: 20px;
+      padding: 2em;
       border-radius: 16px;
       border-style: double;
       border: 3px solid rgb(6, 34, 192);
-
+      display: flex;
+      flex-wrap: wrap;
     }
 
     .container2{
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       border: 5px solid rgb(19, 167, 6);
-      border-left: 5px;
-      border-right: 5px;
+      border-left: 0.5em;
+      border-right: 0.5em;
     }
     
     .navbar ul li:last-child {
@@ -117,12 +121,29 @@
     display: inline;
     border-right: 1px solid rgb(12, 12, 12);
     justify-content: space-between;
-    padding-left: 1rem;
+    padding-left: 1em;
     list-style-type: none;
     
     
     
 }
+/*Desktop Style*/
+@media only screen and (min-width: 961px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  @media only screen and (min-width: 961px) {
+  .container1 {
+    /*width: 95%;*/
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 961px) {
+  .container2 {
+    /*width: 95%;*/
+    margin: 0 auto;
+  }
 .navbar ul {
     display: flex;
     align-items: stretch; /* Default */
@@ -130,7 +151,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    position: relative;
+    /*position: relative;*/
 }
 </style>
     </body>
