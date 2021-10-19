@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>IToTs</title>
+</head>
+<body>
+    <br><button class="btn" type="button" onclick=window.location.href="index.html" >Home</button>
+    <!--<Marquee><h3>Click on the name of RDSDE to visit their website</a></h3></Marquee>-->
+    <p>There are <strong>6</strong> State Government IToTs and <strong>12</strong> Private IToTs</p>
+<div class="container">
+    <!--div class="flex-container">-->
+
+        <div class="ch">
+            <h2><u><strong>List of Government IToTs under DGT <br></strong></u>(Funded by respective State Governments)</h2>
+            <ul>
+                <li><a href="" target="_blank">Government IToT, Rohtak, Haryana</a></li>
+                <li><a href="" target="_blank">Government IToT, Bhopal, Madhya Pradesh</a></li>
+                <li><a href="" target="_blank">Government IToT, Lucknow, Uttar Pradesh</a></li>
+                <li><a href="" target="_blank">Government IToT, Davangere, Karnataka</a></li>
+                <li><a href="" target="_blank">Government IToT, Malavalli, Karnataka</a></li>
+                <li><a href="" target="_blank">Government IToT, Talchar, Orissa</a></li>
+                
+            </ul>
+        </div>
+        
+        <div class="ch">
+            <h2><u><strong>List of Private IToTs under DGT <br></strong></u></h2>
+            <ul>
+                <li><a href="" target="_blank">Bagar IToT, Jhunjhunu, Rajasthan</a></li>
+                <li><a href="" target="_blank">Centurion ITOT, Jatni, Khurda, Odisha</a></li>
+                <li><a href="" target="_blank">Jain IToT, Fazilka, Punjab</a></li>
+                <li><a href="" target="_blank">Khattuji IToT, Fazilka, Punjab</a></li>
+                <li><a href="" target="_blank">Modern Pvt. IToT, Kangra, Himachal Pradesh</a></li>
+                <li><a href="" target="_blank">S. Gita Ram IToT,Matloda, Hisar, Haryana</a></li>
+                <li><a href="" target="_blank">Saraswati IToT, Bhatinda, Punjab</a></li>
+                <li><a href="" target="_blank">SBS IToT, Kalanwali, Sirsa, Haryana</a></li>
+                <li><a href="" target="_blank">SDM IToT, Hisar, Haryana</a></li>
+                <li><a href="" target="_blank">Shivalik IToT, Patiala, Punjab</a></li>
+                <li><a href="" target="_blank">SR IToT, Ambala, Haryana</a></li>
+                <li><a href="" target="_blank">Syadwad IToT, Baghpat, Uttar Pradesh</a></li>
+                
+            </ul>
+        </div>
+        
+      </div>
+    </div>
+<style>
+
+p {
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(212, 5, 5);
+}
+.ch {
+    max-width: 100%;
+    flex-wrap: nowrap;
+    border: 4px solid blue;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 4px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    padding-top: 10px;
+    /*text-align: center;*/
+    border-radius: 10px;
+    background-color: rgb(252, 232, 178);
+}  
+
+.ch ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    /*border-style: solid;*/
+       
+}
+
+.container ch:first-child {
+    
+    height: fit-content;
+    margin-right: 175px;
+    margin-left: 200px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+} 
+
+.container ch:last-child {
+    height: fit-content;
+    margin-right: 175px;
+    margin-left: 200px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+} 
+
+.container {
+    display: flex;
+    max-width:100%;
+    width: 100%;
+    
+    background-color: rgba(205, 241, 43, 0.37);
+    margin-left: auto;
+    margin-right: auto;
+    border-color: rgb(252, 117, 7);
+    border-style: 4 px solid;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-radius: 10px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    background-image: url(Images/pic1.JPG);
+    
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+@media only screen and (min-width: 961px){
+        .container{
+            
+            width: 100%;
+          max-width: 100%;
+          height: 100%;
+          padding-left: 16em;
+          padding-top: 3em;
+          padding-bottom: 2em;
+          
+                    
+          }}
+@media only screen {
+            .container ch:first-child {
+                
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 5em;
+    margin-right: 100px;      
+              
+            }}
+
+            @media only screen {
+            .container ch:last-child {
+              
+                height: fit-content;
+              
+              margin-right: 175px;
+    margin-left: 200px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+              /*margin: 0 auto;*/
+            }}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(42, 81, 165);
+   }
+
+.btn{
+    color: rgb(253, 249, 22);
+    background: rgb(72, 156, 3);
+    padding: 5px 8px;
+    font-size: 20px;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 4px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+}
+/*.container ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    color: brown;
+    margin-left: 1px;
+    margin-right: auto;
+    margin-bottom: 10px;
+   
+}*/
+.ch ul li a{
+    color: brown;
+    text-decoration: none;
+    
+}
+.ch ul li a:hover {color: rgb(30, 206, 14);}
+
+</style>
