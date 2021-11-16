@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!--form action="/ordverify.html" method="post"-->
+        
+      <div>
+          <label for="CFIID">Enter the Gmail ID for CFI</label>
+          <input type="email" name="cfiemail" class="form-control" id="cfiemail">
+          <!--button type="submit" class="update btn btn-primary">Submit</button-->
+          <button onclick="myFunction()">Verify</button>
+      </div>
+      <script>
+          function myFunction() {
+          Email=document.getElementById('cfiemail').value;
+          console.log(Email);
+          if (Email=="cfidgt@gmail.com"){
+              window.location='orders_list.html';
+          }
+        }
+          //edits = document.getElementsByClassName('edit');
+      //Array.from(edits).forEach((element)=>{
+        //element.addEventListener("click", (e)=>{
+          //console.log("edit", );
+          //document.getElementById("sidedit").disabled = true;
+          //tr=e.target.parentNode.parentNode;
+         // sid=e.target.id;
+          //trade=tr.getElementsByTagName("td")[1].innerText;
+          //company=tr.getElementsByTagName("td")[2].innerText;
+          //console.log(sid, trade, company);
+          //sidedit.value=sid;
+          //tradeedit.value=trade;
+          //companyedit.value=company;
+          
+         // $('#editModal').modal('toggle');
+          //console.log(sid);
+       // })
+      //})
+        </script>
+</body>
+</html>
