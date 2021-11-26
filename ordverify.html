@@ -9,8 +9,7 @@
 </head>
 <body>
     <!--form action="/ordverify.html" method="post"-->
-        
-      <div>
+       <div>
           <label for="CFIID">Enter the Gmail ID for CFI</label>
           <input type="email" name="cfiemail" class="form-control" id="cfiemail">
           <!--button type="submit" class="update btn btn-primary">Submit</button-->
@@ -21,8 +20,10 @@
           Email=document.getElementById('cfiemail').value;
           console.log(Email);
           if (Email=="cfidgt@gmail.com"){
-              window.location.href='orders_list.html';
+              window.location='orders_list.html';
           }
+        } 
+      
              
           //edits = document.getElementsByClassName('edit');
       //Array.from(edits).forEach((element)=>{
